@@ -1,0 +1,12 @@
+mutation UpdateTodoTitle($id: Int!, $title: String!) {
+  data: todo_updateOneTodo(
+    data: {title: {set: $title}}
+    where: {id: $id}
+  ) {
+    
+    id
+    title
+    completed
+    createdAt
+  }
+}

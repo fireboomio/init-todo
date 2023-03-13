@@ -1,0 +1,41 @@
+{
+  "authorizedRedirectUris": [
+    "http://localhost:9123/#/workbench/userInfo",
+    "http://localhost:9123/#/workbench/rapi/loginBack"
+  ],
+  "hooksConfiguration": {
+    "authentication": {
+      "postAuthenticationSwitch": false,
+      "mutatingPostAuthenticationSwitch": false
+    },
+    "restApi": {
+      "onRequestSwitch": false,
+      "onResponseSwitch": false
+    }
+  },
+  "configureWunderGraphApplication": {
+    "security": {
+      "allowedHostsEnabled": true,
+      "enableGraphQLEndpoint": true,
+      "allowedHosts": []
+    },
+    "cors": {
+      "allowedOriginsEnabled": true,
+      "allowedOrigins": [],
+      "allowedMethods": [
+        "GET",
+        "POST"
+      ],
+      "allowedHeadersEnabled": true,
+      "allowedHeaders": [
+        "*"
+      ],
+      "exposedHeaders": [
+        "*"
+      ],
+      "exposedHeadersEnabled": true,
+      "maxAge": 120,
+      "allowCredentials": true
+    }
+  }
+}

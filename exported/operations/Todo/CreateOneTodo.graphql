@@ -1,0 +1,8 @@
+mutation TodoCreateOneTodo($title: String!) {
+  data: todo_createOneTodo(data: {title: $title}) {
+    id
+    title
+    completed
+    createdAt
+  }
+}

@@ -1,0 +1,8 @@
+query TodoGetManyTodo {
+  data: todo_findManyTodo {
+    id
+    title
+    completed
+    createdAt
+  }
+}

@@ -1,0 +1,8 @@
+mutation UpdateTodoCompleted($id: Int!, $completed: Boolean!) {
+  data: todo_updateOneTodo(data: {completed: {set: $completed}}, where: {id: $id}) {
+    id
+    title
+    completed
+    createdAt
+  }
+}
