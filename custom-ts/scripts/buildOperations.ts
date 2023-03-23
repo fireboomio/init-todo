@@ -44,6 +44,9 @@ async function readDir(rootPath: string, ...dirPath: string[]) {
     if (stats.isDirectory()) {
       ret.push(...await readDir(rootPath, ...dirPath, file))
     } else if (stats.isFile()) {
+      if (parse(file).ext !== '.ts') {
+        continue
+      }
       const tsOperation = (await import(filePath)).default as NodeJSOperation<any, any, any, OperationTypes, any, any, any, any, any, any>
       ret.push({
         internal: tsOperation.internal,
@@ -66,13 +69,7 @@ async function readDir(rootPath: string, ...dirPath: string[]) {
 }
 
 async function writeTsOperationsConfig() {
-  const operationDir = join(__dirname, '../operations')
-  try {
-    await mkdir(operationDir)
-  } catch (error) {
-    //
-  }
-  const operations = await readDir(operationDir)
+  const operations = await readDir(join(__dirname, '../operations'))
   const tsOperationConfigDir = join(__dirname, '../../exported/.operations')
   rmSync(tsOperationConfigDir, { force: true, recursive: true })
   await mkdir(tsOperationConfigDir)
