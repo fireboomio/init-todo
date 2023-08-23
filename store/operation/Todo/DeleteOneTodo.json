@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "title": "",
+    "remark": "",
+    "createTime": "2023-03-13 02:46:05Z",
+    "updateTime": "2023-03-13 02:50:34Z",
+    "deleteTime": "",
+    "path": "Todo/DeleteOneTodo",
+    "engine": 0,
+    "operationType": 1,
+    "hooksConfiguration": null,
+    "configCustomized": false,
+    "cacheConfig": {
+        "enabled": false,
+        "maxAge": 0,
+        "public": false,
+        "staleWhileRevalidate": 0
+    },
+    "liveQueryConfig": {
+        "enabled": false,
+        "pollingIntervalSeconds": 0
+    },
+    "authenticationConfig": {
+        "authRequired": false
+    }
+}

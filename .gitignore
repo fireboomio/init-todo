@@ -20,3 +20,6 @@ pnpm-lock.yaml
 
 # log
 log/*
+
+# env
+.env
