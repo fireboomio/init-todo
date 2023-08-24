@@ -23,3 +23,7 @@ log/*
 
 # env
 .env
+
+# key
+authentication.key
+license.key
