@@ -7,19 +7,19 @@
 # bin file
 fireboom
 
-# generated
-generated/
+# fireboom
+/exported
+/log
+/template
+
 .graphqlconfig
 .process/
 
-# hook
+# ts-hook
 node_modules
 yarn.lock
 package-lock.json
 pnpm-lock.yaml
-
-# log
-log/*
 
 # env
 .env
