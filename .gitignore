@@ -27,3 +27,7 @@ pnpm-lock.yaml
 # key
 authentication.key
 license.key
+
+# generated sdk
+sdk/
+generated-sdk/
