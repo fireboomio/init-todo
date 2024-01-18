@@ -1,0 +1,8 @@
+# 简单创建
+# 创建一个用户
+mutation MyQuery($email: String = "@fireboom.io") {
+  blog_createOneUser(data: {email: $email}) {
+    id
+    email
+  }
+}

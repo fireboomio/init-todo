@@ -1,0 +1,8 @@
+# 关联查询
+# 获取一个用户，且必须拥有一篇标题为"test"的文章
+query MyQuery($title: String="test") {
+  blog_findFirstUser(where: {Post: {some: {title: {contains: $title}}}}) {
+    email
+    id
+  }
+}

@@ -1,0 +1,7 @@
+# sqlite 数据库不支持，其他数据库支持！！！
+mutation MyQuery {
+  blog_createManyUser(data: [{email:  "@fireboom.io"},{email:  "@fireboom.io2"}]) {
+    id
+    email
+  }
+}

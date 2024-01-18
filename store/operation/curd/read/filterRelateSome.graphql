@@ -1,0 +1,8 @@
+# 获取至少有一篇文章的用户列表
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-presence-of-related-records
+query MyQuery {
+  blog_findManyUser(where: {Post: {some: {}}}) {
+    email
+    id
+  }
+}

@@ -31,3 +31,7 @@ license.key
 # generated sdk
 sdk/
 generated-sdk/
+
+# default ds
+upload/oas/system.json
+store/datasource/system.json

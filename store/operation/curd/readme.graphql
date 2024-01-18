@@ -1,0 +1,12 @@
+# 构建了blog项目，演示如下关联关系：
+# one-to-one: User ↔ Profile
+# one-to-many: User ↔ Post
+# many-to-many: Post ↔ Category
+# schema，前往数据建模查看
+# 由于是sqlite数据库，有些高级特性不支持～
+query MyQuery {
+  blog_findFirstPost {
+    authorId
+    id
+  }
+}

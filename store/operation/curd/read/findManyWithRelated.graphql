@@ -1,0 +1,10 @@
+# 关联过滤
+# 获取所有用户，其邮箱以"fireboom.io"结尾，且该用户有一篇文章未发布
+query MyQuery($endsWith: String = "fireboom.io", $equals: Boolean = false) {
+  blog_findManyUser(
+    where: {email: {endsWith: $endsWith}, Post: {some: {published: {equals: $equals}}}}
+  ) {
+    email
+    id
+  }
+}

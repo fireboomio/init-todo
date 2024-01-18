@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "enabled": true,
+  "createTime": "2024-01-18T11:11:28.626295994Z",
+  "updateTime": "2024-01-18T11:11:31.785897496Z",
+  "deleteTime": "",
+  "cacheEnabled": false,
+  "kind": 7,
+  "customRest": null,
+  "customGraphql": null,
+  "customDatabase": {
+    "kind": 0,
+    "databaseUrl": {
+      "kind": 0,
+      "staticVariableContent": "blog.db"
+    },
+    "databaseAlone": null
+  }
+}
