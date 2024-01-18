@@ -1,17 +1,17 @@
-# 获取邮箱为"test@fireboom.io"的1个用户
-# 同时获取该用户的近10条文章和详细信息
-query MyQuery($email: String = "test@fireboom.io") {
+query MyQuery($email: String = "@fireboom.io") {
   blog_findUniqueUser(where: {email: $email}) {
     id
     email
-    # 1:n 关联，取最新10条文章
     Post(take: 10, orderBy: {id: desc}) {
       id
       authorId
       title
       published
+      Category {
+        name
+        id
+      }
     }
-    # 1:1 关联
     Profile {
       userId
       id

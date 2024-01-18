@@ -1,0 +1,5 @@
+# 原生的sql查询语句
+# 查询email 包含"@"的2条用户数据
+mutation MyQuery($parameters: JSON = ["@",2]) {
+  blog_queryRaw(query: "SELECT * FROM user WHERE email LIKE '%' || ? || '%' limit ?", parameters: $parameters)
+}

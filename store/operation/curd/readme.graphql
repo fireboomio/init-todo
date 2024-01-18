@@ -2,8 +2,9 @@
 # one-to-one: User ↔ Profile
 # one-to-many: User ↔ Post
 # many-to-many: Post ↔ Category
-# schema，前往数据建模查看
+# blog schema，前往左侧“数据建模” tab 查看
 # 由于是sqlite数据库，有些高级特性不支持～
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud
 query MyQuery {
   blog_findFirstPost {
     authorId
