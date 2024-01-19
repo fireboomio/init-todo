@@ -1,0 +1,18 @@
+# 嵌套创建
+# 同时创建用户和多篇文章
+# sqlite 不支持！
+mutation MyQuery($email: String = "@fireboom.io22") {
+  blog_createOneUser(
+    data: {email: $email, Post: {
+      createMany:{
+        data:[{title:"my first post"},{title:"my second post"}]
+      }
+    }}
+  ) {
+    id
+    Post {
+      id
+      title
+    }
+  }
+}

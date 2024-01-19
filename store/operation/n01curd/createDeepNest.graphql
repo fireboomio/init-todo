@@ -1,0 +1,38 @@
+# 创建一个深嵌套的记录树
+# 一个用户，包含
+# 两个新的，相关的 文章 记录
+# 为每个文章 连接或创建 类别 
+mutation MyQuery($email: String = "fireboom.io") {
+  blog_createOneUser(
+    data: {
+      email: $email,
+      Post: {
+        create: [
+          {
+            name: "my first post", 
+            Category: {
+              connectOrCreate: 
+              [
+                {where: {name: "socail"}, create: {name: "socail"}},
+                {where: {name: "intro"}, create: {name: "intro"}},
+            	]
+            }
+          },
+          {
+            name: "my secound post", 
+            Category: {
+              connectOrCreate: 
+              [
+                {where: {name: "socail"}, create: {name: "socail"}},
+                {where: {name: "intro"}, create: {name: "intro"}},
+            	]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    email
+  }
+}

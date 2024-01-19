@@ -1,0 +1,40 @@
+# 组合过滤
+# 获取全部用户，邮箱以 "test" 开头，或 
+# Profile 的 address 等于 "china" 并且 有一篇文章 的title包含"fireboom"
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud#filter-by-multiple-field-values
+query MyQuery{
+  blog_findManyUser(where: {
+    OR: [
+    {email: {startsWith: "test"}},
+    {
+      AND:{
+        Profile:{
+          is:{
+            address:{
+              equals:"china"
+            }
+          }
+        },
+        Post:{
+          some:{
+            title:{
+              contains:"fireboom"
+            }
+          }
+        }
+      }
+    }
+  ]}) {
+    id
+    email
+    Post {
+      title
+      published
+      like
+      id
+    }
+    Profile {
+      address
+    }
+  }
+}

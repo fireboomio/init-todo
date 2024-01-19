@@ -1,0 +1,12 @@
+# 过滤没有“to-many”记录
+# 查询没有一篇文章的用户列表
+query MyQuery {
+  blog_findManyUser(where: {Post: {none: {}}}) {
+    email
+    id
+    Post {
+      id
+      like
+    }
+  }
+}

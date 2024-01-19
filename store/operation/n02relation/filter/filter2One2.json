@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "",
+  "createTime": "2024-01-19T15:00:16.301074311Z",
+  "updateTime": "2024-01-19T15:00:31.243587787Z",
+  "deleteTime": "",
+  "path": "n02relation/filter/filter2One2",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

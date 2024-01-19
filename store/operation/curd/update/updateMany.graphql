@@ -1,9 +1,0 @@
-# 将所有用户（email包含'@fireboom.io'）的邮箱设置为"@fireboom.cloud"
-mutation MyQuery($email: String = "@fireboom.io", $newemail: String = "@fireboom.cloud") {
-  blog_updateManyUser(
-    data: {email: {set: $newemail}}
-    where: {email: {contains: $email}}
-  ) {
-    count
-  }
-}

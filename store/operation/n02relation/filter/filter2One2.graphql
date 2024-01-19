@@ -1,0 +1,16 @@
+# 过滤"对1"关联
+# 查找没有作者的所有文章列表
+# debug
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-absence-of--to-one-relations
+query MyQuery {
+  blog_findManyPost(
+    # where: {User:null}
+    where: {authorId:{equals:null}}
+  ) {
+    id
+    title
+    User{
+      id
+    }
+  }
+}

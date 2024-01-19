@@ -1,0 +1,29 @@
+# 关联查询
+# 根据主键或唯一键查询
+# 获取邮箱为"@fireboom.io" 的用户
+# 并同时获取其 近10条文章及其类别
+# 个人详细信息
+query MyQuery($email: String = "@fireboom.io") {
+  blog_findUniqueUser(where: {email: $email}) {
+    id
+    email
+    # 近10条文章
+    Post(take: 10, orderBy: {id: desc}) {
+      id
+      authorId
+      title
+      published
+      # 及其类别
+      Category {
+        name
+        id
+      }
+    }
+    # 个人详细信息
+    Profile {
+      userId
+      id
+      address
+    }
+  }
+}

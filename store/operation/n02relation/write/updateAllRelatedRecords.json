@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "",
+  "createTime": "2024-01-19T14:35:49.592850832Z",
+  "updateTime": "2024-01-19T14:39:20.998970423Z",
+  "deleteTime": "",
+  "path": "n02relation/write/updateAllRelatedRecords",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

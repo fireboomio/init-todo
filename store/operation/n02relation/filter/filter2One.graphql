@@ -1,0 +1,12 @@
+# 过滤"对1"关联
+# 根据条件查找文章列表
+# 1. 作者的邮箱不是fireboom.io
+# 2. 作者的id大于10
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on--to-one-relations
+query MyQuery {
+  blog_findManyPost(
+    where: {User: {is: {id: {gt: 10}}, isNot: {email: {equals: "fireboom.io"}}}}
+  ) {
+    id
+  }
+}

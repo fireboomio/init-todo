@@ -1,0 +1,13 @@
+# 为现存记录增加相关记录
+# debug
+mutation MyQuery {
+  blog_updateOneUser(
+    data: {Post: {createMany: {
+      data:[{title: "first post", published: false},{title: "second post", published: false}]
+    }}}
+    where: {id: 10}
+  ) {
+    id
+    email
+  }
+}

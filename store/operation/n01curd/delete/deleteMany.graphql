@@ -1,0 +1,7 @@
+# 删除多条记录
+# 删除邮箱包含"fireboom.io"字段的所有用户
+mutation MyQuery($contains: String = "fireboom.io") {
+  blog_deleteManyUser(where: {email: {contains: $contains}}) {
+    count
+  }
+}

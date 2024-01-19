@@ -1,9 +1,0 @@
-# 创建时关联
-# 创建用户的同时，关联一篇文章
-# connect 后改为数组，可关联多篇文章
-mutation MyQuery {
-  blog_createOneUser(data: {email: "fireboom.io", Post: {connect:{id: 1}}}) {
-    id
-    email
-  }
-}

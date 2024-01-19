@@ -1,0 +1,7 @@
+# 删除所有记录
+# 删除所有用户
+mutation MyQuery {
+  blog_deleteManyUser {
+    count
+  }
+}

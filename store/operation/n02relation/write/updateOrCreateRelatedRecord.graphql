@@ -1,0 +1,11 @@
+# 更新或创建相关记录
+# 若文章（id=10）存在用户（作者），则更新其邮箱为 "@fireboom.io"
+# 否则，新建用户
+mutation MyQuery( $email: String = "@fireboom.io") {
+  blog_updateOnePost(
+    data: {User: {upsert: {update: {email: {set: $email}}, create: {email:  $email}}}}
+    where: {id: 10}
+  ) {
+    id
+  }
+}

@@ -1,7 +1,0 @@
-# 将用户（id=1）的邮箱设置为"@fireboom.cloud"
-mutation MyQuery($email: String = "@fireboom.cloud", $id: Int = 1) {
-  blog_updateOneUser(data: {email: {set: $email}}, where: {id: $id}) {
-    id
-    email
-  }
-}

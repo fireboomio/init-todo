@@ -1,0 +1,12 @@
+# 过滤关系列表
+# 获取一个用户，及其未发表的文章，按照标题排序
+query MyQuery {
+  blog_findFirstUser {
+    id
+    email
+    Post(where: {published: {equals: false}}, orderBy: {title: asc}) {
+      title
+      id
+    }
+  }
+}

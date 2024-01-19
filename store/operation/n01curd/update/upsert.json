@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "",
+  "createTime": "2024-01-18T11:59:55.499513398Z",
+  "updateTime": "2024-01-19T13:18:29.00840142Z",
+  "deleteTime": "",
+  "path": "n01curd/update/upsert",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

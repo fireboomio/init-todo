@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "",
+  "createTime": "2024-01-19T06:49:30.26617976Z",
+  "updateTime": "2024-01-19T06:57:25.879498274Z",
+  "deleteTime": "",
+  "path": "n01curd/read/findAll",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

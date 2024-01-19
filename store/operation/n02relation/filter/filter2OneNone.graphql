@@ -1,0 +1,14 @@
+# 查询没有用户的所有文章列表
+# debug
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-absence-of--to-one-relations
+query MyQuery {
+  blog_findManyPost(where: {User: {}}) {
+    title
+    id
+    like
+    published
+    User{
+      id
+    }
+  }
+}

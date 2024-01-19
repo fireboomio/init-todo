@@ -1,6 +1,6 @@
-# 关联查询
-# 获取一个用户，且必须拥有一篇标题为"test"的文章
-query MyQuery($title: String="test") {
+# 根据关联表获取用户
+# 获取一个用户，其文章标题包含"fireboom"
+query MyQuery($title: String = "fireboom") {
   blog_findFirstUser(where: {Post: {some: {title: {contains: $title}}}}) {
     email
     id

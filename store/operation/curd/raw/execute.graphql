@@ -1,4 +1,4 @@
-# 原声更新
+# 原生更新
 # 将用户（id=1）的邮箱更新为"@fireboom.io"
 mutation MyQuery($parameters: JSON = ["@fireboom.io",1]) {
   blog_executeRaw(query: "UPDATE user SET email= ? WHERE id= ?", parameters: $parameters)

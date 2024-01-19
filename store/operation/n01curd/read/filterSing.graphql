@@ -1,0 +1,9 @@
+# 根据单字段过滤
+# 获取所有用户，其邮箱以"fireboom.io"结尾
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud#filter-by-a-single-field-value
+query MyQuery($endsWith: String = "fireboom.io") {
+  blog_findManyUser(where: {email: {endsWith: $endsWith}}) {
+    id
+    email
+  }
+}
