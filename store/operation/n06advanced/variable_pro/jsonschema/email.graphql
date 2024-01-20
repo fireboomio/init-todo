@@ -1,0 +1,9 @@
+# 参数校验 jsonSchema 
+# 字符类型校验
+# 用 EMAIL 校验邮箱
+mutation MyQuery($email: String! @jsonSchema(commonPattern:EMAIL)) {
+  blog_updateOneUser(data: {email: {set: $email}}, where: {id: 10}) {
+    id
+    age
+  }
+}

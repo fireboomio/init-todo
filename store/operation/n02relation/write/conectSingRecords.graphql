@@ -1,4 +1,4 @@
-# 链接单个记录
+# 链接单个记录(1:n)
 # 创建用户的同时，关联一篇文章
 # connect 后改为数组，可关联多篇文章 connect: [{ id: 1 }, { id: 9 }, { id: 10 }]
 mutation MyQuery {

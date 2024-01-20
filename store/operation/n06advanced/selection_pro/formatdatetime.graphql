@@ -1,0 +1,16 @@
+# 格式化日期字段
+# 详情见注释
+query MyQuery {
+  todo_findFirstTodo {
+    # 自定义日期格式
+    createdAt @formatDateTime(customFormat: "yyyy-MM-dd")
+    id
+    title
+  }
+  todo_findManyTodo {
+    # 按照内置的标准格式化日期
+    createdAt @formatDateTime(format: ISO8601)
+    id
+    title
+  }
+}

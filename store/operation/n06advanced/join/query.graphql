@@ -1,0 +1,21 @@
+# 跨数据源关联查询（也适用同数据源没有外建关联的场景）
+# blog 库和 todo 库，其中 todo.todo.authorId=blog.user.id
+# 查询 blog 库的 用户（id=1）
+# 同时 关联查询该用户在 todo 库的所有 todo 记录
+# 原理：
+# 1, 声明变量：用 @internal 定义 $authorId
+# 2，赋值变量：用 @export 将 id 赋值给 authorId（注意这里没有 $ 符号）
+# 3，使用变量：在todo_findManyTodo 字段 where条件中使用 $authorId
+query MyQuery($authorId: Int! @internal) {
+  blog_findUniqueUser(where: {id: 1}) {
+    email
+    id @export(as: "authorId")
+    _join {
+      todo_findManyTodo(where: {authorId: {equals: $authorId}}) {
+        id
+        title
+        completed
+      }
+    }
+  }
+}

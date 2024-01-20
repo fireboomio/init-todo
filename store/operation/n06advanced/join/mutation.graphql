@@ -1,0 +1,19 @@
+# 跨数据源关联更新（也适用同数据源没有外建关联的场景）
+# blog 库和 todo 库，其中 todo.todo.authorId=blog.user.id
+# 查询 blog 库的 用户（id=1）
+# 同时 将该用户的 todo 设置为未完成
+# 原理：
+# 1, 声明变量：用 @internal 定义 $authorId
+# 2，赋值变量：用 @export 将 id 赋值给 authorId（注意这里没有 $ 符号）
+# 3，使用变量：在 todo_updateManyTodo 字段 where 条件中使用 $authorId
+query MyQuery($authorId: Int! @internal) {
+  blog_findUniqueUser(where: {id: 1}) {
+    email
+    id @export(as: "authorId")
+    _join_mutation {
+      todo_updateManyTodo(where:{authorId:{equals:$authorId}},data:{completed:{set:false}}) {
+        count
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# 原生查询
+# 查询email 包含"@"的2条用户数据
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries#queryraw
+mutation MyQuery($parameters: JSON = ["@",2]) {
+  blog_queryRaw(query: "SELECT * FROM user WHERE email LIKE '%' || ? || '%' limit ?", parameters: $parameters)
+}

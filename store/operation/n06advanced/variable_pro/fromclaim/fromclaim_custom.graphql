@@ -1,0 +1,10 @@
+# 数据权限 @fromClaim
+# 除了 OIDC 协议规定的参数外，还可以为用户自定义数据
+# 自定数据方法见：https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/authentication/mutatingPostAuthentication.go#L21
+# 根据用户上的 obj.key1 作为标题，获取待做事项
+query MyQuery($title: String!  @fromClaim(name:CUSTOM,customJsonPath:["obj","key1"])) {
+  todo_findManyTodo(where: {title: {equals: $title}}) {
+    id
+    title
+  }
+}

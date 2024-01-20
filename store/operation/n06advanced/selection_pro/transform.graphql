@@ -1,0 +1,24 @@
+# 响应转换 @transform
+# 详情见注释
+query MyQuery($email: String = "@fireboom.io") {
+  blog_findUniqueUser(where: {email: $email}) {
+    id
+    email
+    # 提取普通字段
+    postCount:_count @transform(get: "Post"){
+      Post
+    }
+    # 对象数组转数组，将 文章 列表的 title 取出来构成数组
+    posts: Post(take: 10, orderBy: {id: desc}) @transform(get: "[].title") {
+      title
+    }
+    # 这个仅供演示用法，实际上直接用 user 对象的 country 字段即可
+    # 提取深度嵌套的字段
+    country: Profile  @transform(get: "User.country"){
+      address
+      User {
+        country
+      }
+    }
+  }
+}

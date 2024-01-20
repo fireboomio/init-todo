@@ -1,0 +1,10 @@
+# 数据权限 @fromClaim 和 @whereInput 联动
+# @whereInput 用来从数组对象中提取数据，合成 WhereInput 类型的参数
+# 假设：objlist=[{title:"test"},{title:"learn"}]
+# 则：$OR=[{}]
+query MyQuery($OR: [todo_TodoWhereInput]!  @fromClaim(name:CUSTOM,customJsonPath:["objlist"]) @whereInput(filter: {field: "title", scalar: {type: startsWith}}) ) {
+  todo_findManyTodo(where: {OR: $OR}) {
+    id
+    title
+  }
+}

@@ -1,0 +1,11 @@
+# 事务 @transaction 
+# 事务删除 User 和 Profile
+# 不用该指令修饰，无法保证原子性
+mutation MyQuery($userId: Int = 10) @transaction {
+  blog_deleteOneUser(where: {id: $userId}) {
+    id
+  }
+  blog_deleteOneProfile(where: {userId: $userId}) {
+    id
+  }
+}

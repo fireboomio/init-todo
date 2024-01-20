@@ -1,0 +1,9 @@
+# 参数校验 jsonSchema 
+# 字符串类型校验
+# 标题字符在 2-100 之间
+mutation MyQuery($title: String! @jsonSchema(minLength:2,maxLength:100)) {
+  todo_createOneTodo(data: {title: $title}) {
+    id
+    title
+  }
+}

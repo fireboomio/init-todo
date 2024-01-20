@@ -1,0 +1,10 @@
+# 参数注入-@injectCurrentDateTime
+# 将当前时间注入到变量中，一般用于 DateTime 字段
+# 创建或更新时，设置为服务端时间
+mutation MyQuery($createdAt: DateTime! @injectCurrentDateTime(format:ISO8601)) {
+  todo_createOneTodo(data: {title: "test",createdAt:$createdAt}) {
+    id
+    title
+    createdAt
+  }
+}

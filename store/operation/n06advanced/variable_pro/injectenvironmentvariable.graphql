@@ -1,0 +1,9 @@
+# 参数注入- @injectEnvironmentVariable
+# 从环境变量中取值注入到变量中
+# 用 环境变量 PG_URL 创建一个待做事项（虚构）
+mutation MyQuery($title: String! @injectEnvironmentVariable(name:"PG_URL")) {
+  todo_createOneTodo(data: {title: $title}) {
+    id
+    title
+  }
+}

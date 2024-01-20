@@ -1,6 +1,0 @@
-# 断开文章（id=1的）与类别（id=2）的关联
-mutation MyQuery($id: Int = 1) {
-  blog_updateOnePost(data: {Category: {disconnect: {id: 2}}}, where: {id: $id}) {
-    id
-  }
-}

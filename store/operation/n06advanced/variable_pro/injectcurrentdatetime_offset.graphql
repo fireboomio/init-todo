@@ -1,0 +1,10 @@
+# 参数注入-@injectCurrentDateTime
+# 使用 offset 字段，设置时间的偏移量
+# 示例，服务器时间 -1 小时
+mutation MyQuery($createdAt: DateTime! @injectCurrentDateTime(offset:{value:1,unit:HOUR,previous:true})) {
+  todo_createOneTodo(data: {title: "test",createdAt:$createdAt}) {
+    id
+    title
+    createdAt
+  }
+}

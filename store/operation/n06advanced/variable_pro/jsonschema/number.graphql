@@ -1,0 +1,9 @@
+# 参数校验 jsonSchema 
+# 数字类型校验
+# 年龄在 1-120 之间
+mutation MyQuery($age: Int! @jsonSchema(minimum:1,maximum:120)) {
+  blog_updateOneUser(data: {age: {set: $age}}, where: {id: 10}) {
+    id
+    age
+  }
+}
