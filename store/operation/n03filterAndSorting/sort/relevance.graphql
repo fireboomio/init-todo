@@ -1,0 +1,14 @@
+# 根据相关性排序（pg）
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/filtering-and-sorting#sort-by-relevance-postgresql
+query MyQuery {
+  blog_findManyUser(orderBy: {
+    _relevance:{
+      fields:["bio"],
+      search:"developer",
+      sort:"asc"
+    }
+  }) {
+    email
+    id
+  }
+}

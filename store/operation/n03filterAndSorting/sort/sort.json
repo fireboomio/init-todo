@@ -1,0 +1,16 @@
+{
+  "enabled": false,
+  "title": "",
+  "remark": "",
+  "createTime": "2024-01-20T07:40:25.25050653Z",
+  "updateTime": "2024-01-20T07:40:35.543181877Z",
+  "deleteTime": "",
+  "path": "n03filterAndSorting/sort/sort",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": false,
+  "cacheConfig": null,
+  "liveQueryConfig": null,
+  "authenticationConfig": null
+}

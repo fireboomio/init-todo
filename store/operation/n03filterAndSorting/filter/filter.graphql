@@ -1,0 +1,17 @@
+# 关联过滤查询
+# 查询所有用户及其未发表的文章，满足条件
+# 用户邮箱以"fireboom.io"结尾
+# 用户有一篇未发表的文章（关联）
+query MyQuery {
+  blog_findManyUser(
+    where: {email: {endsWith: "fireboom.io"}, Post: {some: {published: {equals: false}}}}
+  ) {
+    email
+    id
+    Post(where: {published: {equals: false}}) {
+      id
+      title
+      published
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# 排序并分页
+# 获取所有文章，其标题包含 "fireboom"，并按照title倒序
+# 获取41-50的记录
+query MyQuery {
+  blog_findManyPost(
+    where: {title: {contains: "fireboom"}}
+    skip: 40
+    take: 10
+    orderBy: {title: desc}
+  ) {
+    id
+    title
+  }
+}

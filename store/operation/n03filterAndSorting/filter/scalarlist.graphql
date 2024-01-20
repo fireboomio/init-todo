@@ -1,0 +1,10 @@
+# 过滤数组字段
+# tags String[]
+# sqlite不支持 list 字段，无法演示
+query MyQuery {
+  blog_findManyPost(where: {tags:{has:"database"}}) {
+    id
+    title
+    content
+  }
+}

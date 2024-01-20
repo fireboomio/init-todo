@@ -1,0 +1,11 @@
+# 关联表聚合值排序
+# 按照用户的文章数量排序用户
+query MyQuery {
+  blog_findManyUser(take: 10, orderBy: {Post: {_count: desc}}) {
+    id
+    email
+    _count {
+      Post
+    }
+  }
+}

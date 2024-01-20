@@ -1,0 +1,14 @@
+# 嵌套排序
+# 按照 邮箱 和 编号 倒序 展示用户
+# 按照 标题 倒序 展示文章
+query MyQuery {
+  blog_findManyUser(orderBy: {email: desc, id: desc}) {
+    email
+    id
+    Post(orderBy: {title: desc}) {
+      id
+      content
+      title
+    }
+  }
+}

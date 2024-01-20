@@ -1,0 +1,12 @@
+# 游标分页
+# 适用场景：
+# 1. 无限滚动
+# 2. 批量导出
+# 从id为10的记录开始，跳过1个，取4个记录
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/pagination#cursor-based-pagination
+query MyQuery {
+  blog_findManyPost(skip: 1, take: 4, cursor: {id: 10}) {
+    id
+    title
+  }
+}

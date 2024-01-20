@@ -1,0 +1,8 @@
+# 根据关联表排序
+# 根据作者的邮箱地址正序排列文章
+query MyQuery {
+  blog_findManyPost(orderBy: {User: {email: asc}}) {
+    id
+    title
+  }
+}

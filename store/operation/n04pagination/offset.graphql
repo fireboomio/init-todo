@@ -1,0 +1,8 @@
+# 分页
+# 从第4条（跳过前3条）开始，取10条用户
+query MyQuery {
+  blog_findManyPost(skip: 3, take: 10) {
+    id
+    title
+  }
+}

@@ -1,0 +1,8 @@
+# 过滤并分页
+# 查询所有标题包含  "fireboom" 的文章，并选取 41-50 的记录
+query MyQuery {
+  blog_findManyPost(where: {title: {contains: "fireboom"}}, skip: 40, take: 10) {
+    id
+    title
+  }
+}
