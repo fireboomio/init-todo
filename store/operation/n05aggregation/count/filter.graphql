@@ -1,0 +1,9 @@
+# 过滤数量
+# 查询年龄>1的用户数量
+query MyQuery {
+  blog_aggregateUser(where: {age: {gt: 1}}) {
+    _count {
+      _all
+    }
+  }
+}

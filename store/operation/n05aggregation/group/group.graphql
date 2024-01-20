@@ -1,0 +1,12 @@
+# 分组记录
+# 根据国家分组用户，并统计一些数据
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#group-by
+query MyQuery {
+  blog_groupByUser(by: country) {
+    _sum {
+      id
+      age
+    }
+    country
+  }
+}

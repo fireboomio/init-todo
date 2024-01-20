@@ -1,0 +1,10 @@
+# 计数
+# 统计用户表的用户总个数
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#count
+query MyQuery {
+  blog_aggregateUser {
+    _count {
+      id
+    }
+  }
+}

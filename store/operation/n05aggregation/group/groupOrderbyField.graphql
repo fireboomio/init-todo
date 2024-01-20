@@ -1,0 +1,11 @@
+# 排序聚合组-根据字段
+# 根据用户国家 排序组（倒序），并且分页获取
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#order-by-field
+query MyQuery {
+  blog_groupByUser(by: country, orderBy: {country: desc}, skip: 0, take: 1) {
+    _count {
+      country
+    }
+    country
+  }
+}

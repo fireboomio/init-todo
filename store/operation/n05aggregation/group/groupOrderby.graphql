@@ -1,0 +1,11 @@
+# 排序聚合组
+# 根据用户的数量排序组（倒序）
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#groupby-and-ordering
+query MyQuery {
+  blog_groupByUser(by: country, orderBy: {_count: {country: desc}}) {
+    _count {
+      country
+    }
+    country
+  }
+}

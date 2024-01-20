@@ -1,0 +1,10 @@
+# 平均值
+# 返回所有用户的年龄平均值
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#aggregate
+query MyQuery {
+  blog_aggregateUser {
+    _avg {
+      age
+    }
+  }
+}

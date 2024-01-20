@@ -1,0 +1,12 @@
+# 筛选并分组记录
+# 筛选邮箱包含 "fireboom.io" 的用户，
+# 并 根据国家分组用户，并统计一些数据
+query MyQuery {
+  blog_groupByUser(by: country, where: {email: {contains: "fireboom.io"}}) {
+    _sum {
+      id
+      age
+    }
+    country
+  }
+}

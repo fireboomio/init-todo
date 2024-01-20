@@ -1,0 +1,8 @@
+# 去重
+# 根据 country 字段去除重复数据
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#select-distinct
+query MyQuery {
+  blog_findManyUser(distinct: country) {
+    country
+  }
+}

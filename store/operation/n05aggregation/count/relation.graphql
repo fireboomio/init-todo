@@ -1,0 +1,11 @@
+# 计数关联表
+# 获取用户列表，及每个用户的文章总数
+query MyQuery {
+  blog_findManyUser {
+    _count {
+      Post
+    }
+    email
+    id
+  }
+}

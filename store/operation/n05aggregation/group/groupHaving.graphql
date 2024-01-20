@@ -1,0 +1,17 @@
+# 使用having过滤组
+# 只返回平均年龄大于1.5的组
+# country notIn 可以有效提高执行效率，只保留需要的组
+# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#filter-groups-with-having
+query MyQuery {
+  blog_groupByUser(
+    by: country
+    where: {country: {notIn: ["Ghana"]}}
+    having: {age: {_avg: {gt: 1.5}}}
+  ) {
+    _sum {
+      id
+      age
+    }
+    country
+  }
+}
