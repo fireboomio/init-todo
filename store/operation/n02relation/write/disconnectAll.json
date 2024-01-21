@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 断开所有关联记录\n# 删除用户（id=10）的所有文章关联",
   "createTime": "2024-01-18T12:41:01.842826119Z",
-  "updateTime": "2024-01-19T14:23:34.907656451Z",
+  "updateTime": "2024-01-21T05:12:24.715107064Z",
   "deleteTime": "",
   "path": "n02relation/write/disconnectAll",
   "engine": 0,

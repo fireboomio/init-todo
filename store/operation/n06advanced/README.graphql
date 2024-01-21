@@ -1,7 +1,3 @@
-# 这里为 fireboom 的先进特性展示
-# join 跨源关联
-# raw 原生查询
-# _pro 结尾的是指令，在编辑器中无法测试，编译成 API 后才生效
 query MyQuery {
   __typename ## Placeholder value
 }

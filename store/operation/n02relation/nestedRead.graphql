@@ -1,8 +1,3 @@
-# 关联查询
-# 根据主键或唯一键查询
-# 获取邮箱为"@fireboom.io" 的用户
-# 并同时获取其 近10条文章及其类别
-# 个人详细信息
 query MyQuery($email: String = "@fireboom.io") {
   blog_findUniqueUser(where: {email: $email}) {
     id

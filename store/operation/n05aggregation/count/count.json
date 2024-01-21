@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 计数\n# 统计用户表的用户总个数\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#count",
   "createTime": "2024-01-20T09:50:27.023981058Z",
-  "updateTime": "2024-01-20T09:51:57.093149143Z",
+  "updateTime": "2024-01-21T05:20:25.774248534Z",
   "deleteTime": "",
   "path": "n05aggregation/count/count",
   "engine": 0,

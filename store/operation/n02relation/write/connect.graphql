@@ -1,5 +1,3 @@
-# 更新关联（n:n）
-# 建立文章（id=1的）与类别（id=2）的关联
 mutation MyQuery($id: Int = 1) {
   blog_updateOnePost(data: {Category: {connect: {id: 2}}}, where: {id: $id}) {
     id

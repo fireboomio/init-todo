@@ -1,5 +1,3 @@
-# 组合过滤
-# 查询所有用户，其邮箱以 "fireboom.io" 或 "foxmail.io" 结尾，但是不能以 "gmail.com" 结尾
 query MyQuery {
   blog_findManyUser(where: {OR: [
     {email:{endsWith:"fireboom.io"}},

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 过滤空字段\n# 查询所有内容为空的文章",
   "createTime": "2024-01-20T07:14:44.148047598Z",
-  "updateTime": "2024-01-20T07:17:15.858514501Z",
+  "updateTime": "2024-01-21T05:16:01.62374208Z",
   "deleteTime": "",
   "path": "n03filterAndSorting/filter/null",
   "engine": 0,

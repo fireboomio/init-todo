@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 内部声明 @internalOperation\n# 将 OPERATION 声明为内部函数\n# 1，只能在钩子中调用，详情见钩子文档：https://docs.fireboom.io/jin-jie-gou-zi-ji-zhi/nei-bu-tiao-yong\n# 2，无法通过 http://localhost:9991/operations/n06advanced/operation/internal 访问\n",
   "createTime": "2024-01-20T13:12:36.350733777Z",
-  "updateTime": "2024-01-20T13:35:31.60303231Z",
+  "updateTime": "2024-01-21T05:23:23.263000182Z",
   "deleteTime": "",
   "path": "n06advanced/operation_pro/internal",
   "engine": 0,

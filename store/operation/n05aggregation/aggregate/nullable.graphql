@@ -1,7 +1,3 @@
-# 聚合可为空的字段
-# 平均值
-# 计数不为空的个数
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#aggregate-values-are-nullable
 query MyQuery {
   blog_aggregateUser {
     _avg {

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 平均值\n# 返回所有用户的年龄平均值\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#aggregate",
   "createTime": "2024-01-20T08:50:15.50478917Z",
-  "updateTime": "2024-01-20T08:54:14.975638032Z",
+  "updateTime": "2024-01-21T05:19:35.868102764Z",
   "deleteTime": "",
   "path": "n05aggregation/aggregate/avg",
   "engine": 0,

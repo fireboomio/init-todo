@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 过滤\"对1\"关联\n# 查找没有作者的所有文章列表\n# debug\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-absence-of--to-one-relations",
   "createTime": "2024-01-19T15:00:16.301074311Z",
-  "updateTime": "2024-01-19T15:00:31.243587787Z",
+  "updateTime": "2024-01-21T05:08:19.351520119Z",
   "deleteTime": "",
   "path": "n02relation/filter/filter2One2",
   "engine": 0,

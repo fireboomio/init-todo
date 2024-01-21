@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 组合过滤\n# 查询所有用户，其邮箱以 \"fireboom.io\" 或 \"foxmail.io\" 结尾，但是不能以 \"gmail.com\" 结尾",
   "createTime": "2024-01-20T07:07:27.909600813Z",
-  "updateTime": "2024-01-20T07:12:06.200541279Z",
+  "updateTime": "2024-01-21T05:14:13.475722675Z",
   "deleteTime": "",
   "path": "n03filterAndSorting/filter/combining",
   "engine": 0,

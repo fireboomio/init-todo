@@ -1,9 +1,3 @@
-# 关联过滤
-# 查找所有用户
-# 1. 没有文章超过100阅读 (none)
-# 2. 所有文章等于或大于10赞 (every)
-# some 表示 至少有一个
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on--to-many-relations
 query MyQuery {
   blog_findManyUser(
     where: {Post: {none: {view: {gt: 100}}, every: {like: {lte: 10}}}}

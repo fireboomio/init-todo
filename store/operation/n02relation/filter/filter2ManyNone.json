@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联过滤(1:n)\n# 查询没有一篇文章的用户列表 （none）\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-absence-of--to-many-records",
   "createTime": "2024-01-18T13:20:16.242605513Z",
-  "updateTime": "2024-01-19T14:58:20.940928003Z",
+  "updateTime": "2024-01-21T05:07:16.999693217Z",
   "deleteTime": "",
   "path": "n02relation/filter/filter2ManyNone",
   "engine": 0,

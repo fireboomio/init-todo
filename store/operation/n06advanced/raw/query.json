@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 原生查询\n# 查询email 包含\"@\"的2条用户数据\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries#queryraw\n",
   "createTime": "2024-01-18T14:09:41.707686072Z",
-  "updateTime": "2024-01-20T12:06:19.159783873Z",
+  "updateTime": "2024-01-21T05:23:57.937917307Z",
   "deleteTime": "",
   "path": "n06advanced/raw/query",
   "engine": 0,

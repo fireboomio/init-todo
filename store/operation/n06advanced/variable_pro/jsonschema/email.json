@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数校验 jsonSchema \n# 字符类型校验\n# 用 EMAIL 校验邮箱\n",
   "createTime": "2024-01-20T14:29:07.955793434Z",
-  "updateTime": "2024-01-20T15:00:48.662945629Z",
+  "updateTime": "2024-01-21T05:26:04.399600566Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/jsonschema/email",
   "engine": 0,

@@ -1,6 +1,3 @@
-# 为现存记录增加相关记录
-# debug
-# sqlite不支持
 mutation MyQuery {
   blog_updateOneUser(
     data: {Post: {createMany: {

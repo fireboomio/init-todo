@@ -1,6 +1,3 @@
-# 参数注入- @injectGeneratedUUID
-# 随机生成 uuid 注入到变量中
-# 用 uuid 创建一个待做事项（虚构）
 mutation MyQuery($title: String! @injectGeneratedUUID) {
   todo_createOneTodo(data: {title: $title}) {
     id

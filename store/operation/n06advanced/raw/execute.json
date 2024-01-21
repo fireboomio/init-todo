@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 原生更新\n# 将用户（id=1）的邮箱更新为\"@fireboom.io\"\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries#executeraw\n",
   "createTime": "2024-01-18T14:30:24.677067419Z",
-  "updateTime": "2024-01-20T12:06:19.159479676Z",
+  "updateTime": "2024-01-21T05:23:46.748987356Z",
   "deleteTime": "",
   "path": "n06advanced/raw/execute",
   "engine": 0,

@@ -1,7 +1,3 @@
-# 断开关联记录
-# debug
-# author: { disconnect: true, }
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#disconnect-a-related-record
 mutation MyQuery {
   blog_updateOnePost(data: {User: {connect: {id: null}}}, where: {id: 10}) {
     id

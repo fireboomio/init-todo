@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 数据权限 @fromClaim\n# 用户新建自己的文章\n# 新建文章时，链接到当前登录用户上\n",
   "createTime": "2024-01-20T13:50:23.647444165Z",
-  "updateTime": "2024-01-20T15:00:48.661715358Z",
+  "updateTime": "2024-01-21T05:25:11.904305801Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/fromclaim/fromclaim_create",
   "engine": 0,

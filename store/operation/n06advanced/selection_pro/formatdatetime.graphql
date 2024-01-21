@@ -1,5 +1,3 @@
-# 格式化日期字段
-# 详情见注释
 query MyQuery {
   todo_findFirstTodo {
     # 自定义日期格式

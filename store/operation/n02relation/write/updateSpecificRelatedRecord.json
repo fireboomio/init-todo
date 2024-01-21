@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新一个特定的关联记录\n# 把用户（id=1）的文章（id=9）的标题设置为\"updated title\"",
   "createTime": "2024-01-19T14:40:18.558277562Z",
-  "updateTime": "2024-01-19T14:44:38.057309583Z",
+  "updateTime": "2024-01-21T05:13:15.953124473Z",
   "deleteTime": "",
   "path": "n02relation/write/updateSpecificRelatedRecord",
   "engine": 0,

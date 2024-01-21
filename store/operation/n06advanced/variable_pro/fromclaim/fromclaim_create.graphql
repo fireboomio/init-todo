@@ -1,6 +1,3 @@
-# 数据权限 @fromClaim
-# 用户新建自己的文章
-# 新建文章时，链接到当前登录用户上
 mutation MyQuery($title: String = "leran",$email: String! @fromClaim(name: EMAIL)) {
   blog_createOnePost(
     data: {title: $title, published: false, User: {connect: {email: $email}}}

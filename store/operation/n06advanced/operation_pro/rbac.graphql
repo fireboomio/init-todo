@@ -1,7 +1,3 @@
-# 接口权限控制 @rbac
-# 用户必须登录，且拥有 admin 角色才能访问该接口
-# 该指令只适用于静态场景，详情见：https://docs.fireboom.io/ji-chu-ke-shi-hua-kai-fa/yan-zheng-he-shou-quan/rbac
-# 动态场景（不用指令修饰），请在 beforeRequest 钩子为接口注入角色，前往：https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/global/beforeOriginRequest.go#L32
 mutation MyQuery @rbac(requireMatchAny: [admin]) {
   blog_deleteManyUser {
     count

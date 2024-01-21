@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 连接或创建一个记录\n# 创建一篇文章，标题为 \"how are you\"\n# 如果有用户邮箱为\"@fireboom.io\"，则连接\n# 否则，创建该用户",
   "createTime": "2024-01-19T14:07:40.816682829Z",
-  "updateTime": "2024-01-19T14:11:20.124635892Z",
+  "updateTime": "2024-01-21T05:10:29.719149085Z",
   "deleteTime": "",
   "path": "n02relation/write/connectOrCreateRecord",
   "engine": 0,

@@ -1,16 +1,24 @@
 {
   "enabled": false,
   "title": "",
-  "remark": "",
+  "remark": "# 过滤数组字段\n# tags String[]\n# sqlite不支持 list 字段，无法演示",
   "createTime": "2024-01-20T07:24:36.865537272Z",
-  "updateTime": "",
+  "updateTime": "2024-01-21T05:16:44.80537069Z",
   "deleteTime": "",
   "path": "n03filterAndSorting/filter/scalarlist",
   "engine": 0,
   "hooksConfiguration": null,
   "rateLimit": null,
   "configCustomized": false,
-  "cacheConfig": null,
-  "liveQueryConfig": null,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
   "authenticationConfig": null
 }

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 分组记录\n# 根据国家分组用户，并统计一些数据\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#group-by\n",
   "createTime": "2024-01-20T09:00:54.490953695Z",
-  "updateTime": "2024-01-20T09:10:27.079144288Z",
+  "updateTime": "2024-01-21T05:21:44.912269209Z",
   "deleteTime": "",
   "path": "n05aggregation/group/group",
   "engine": 0,

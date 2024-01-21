@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 使用having过滤组\n# 只返回平均年龄大于1.5的组\n# country notIn 可以有效提高执行效率，只保留需要的组\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#filter-groups-with-having\n",
   "createTime": "2024-01-20T09:36:05.750272522Z",
-  "updateTime": "2024-01-20T09:36:38.160473806Z",
+  "updateTime": "2024-01-21T05:22:11.910249013Z",
   "deleteTime": "",
   "path": "n05aggregation/group/groupHaving",
   "engine": 0,

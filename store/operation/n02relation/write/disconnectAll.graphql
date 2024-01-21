@@ -1,5 +1,3 @@
-# 断开所有关联记录
-# 删除用户（id=10）的所有文章关联
 mutation MyQuery($id: Int = 10) {
   blog_updateOneUser(where: {id: $id}, data: {Post: {set: {}}}) {
     id

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 格式化日期字段\n# 详情见注释",
   "createTime": "2024-01-20T13:03:49.151119233Z",
-  "updateTime": "2024-01-20T13:11:05.201142701Z",
+  "updateTime": "2024-01-21T05:24:16.426343234Z",
   "deleteTime": "",
   "path": "n06advanced/selection_pro/formatdatetime",
   "engine": 0,

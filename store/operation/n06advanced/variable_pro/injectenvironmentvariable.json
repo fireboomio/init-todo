@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数注入- @injectEnvironmentVariable\n# 从环境变量中取值注入到变量中\n# 用 环境变量 PG_URL 创建一个待做事项（虚构）\n",
   "createTime": "2024-01-20T14:07:54.644513991Z",
-  "updateTime": "2024-01-20T15:00:48.662663974Z",
+  "updateTime": "2024-01-21T05:27:23.530728619Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/injectenvironmentvariable",
   "engine": 0,

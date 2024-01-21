@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 数据权限 @fromClaim\n# 除了 OIDC 协议规定的参数外，还可以为用户自定义数据\n# 自定数据方法见：https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/authentication/mutatingPostAuthentication.go#L21\n# 根据用户上的 obj.key1 作为标题，获取待做事项",
   "createTime": "2024-01-20T14:41:20.541213855Z",
-  "updateTime": "2024-01-20T15:00:48.661857423Z",
+  "updateTime": "2024-01-21T05:25:23.375627039Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/fromclaim/fromclaim_custom",
   "engine": 0,

@@ -1,5 +1,3 @@
-# 响应转换 @transform
-# 详情见注释
 query MyQuery($email: String = "@fireboom.io") {
   blog_findUniqueUser(where: {email: $email}) {
     id

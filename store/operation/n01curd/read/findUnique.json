@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 简单查询\n# 根据主键或唯一键查询\n# 获取邮箱为\"@fireboom.io\" 的用户",
   "createTime": "2024-01-18T11:25:38.640735159Z",
-  "updateTime": "2024-01-19T06:43:48.274043338Z",
+  "updateTime": "2024-01-21T05:03:40.656423398Z",
   "deleteTime": "",
   "path": "n01curd/read/findUnique",
   "engine": 0,

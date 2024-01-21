@@ -1,5 +1,3 @@
-# 过滤计数关联表
-# 获取用户列表，及每个用户的未发表文章的总数
 query MyQuery {
   blog_findManyUser {
     _count {

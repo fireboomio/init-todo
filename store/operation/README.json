@@ -1,16 +1,24 @@
 {
   "enabled": false,
   "title": "",
-  "remark": "",
+  "remark": "# 构建了blog项目，演示如下关联关系：\n# one-to-one: User ↔ Profile\n# one-to-many: User ↔ Post\n# many-to-many: Post ↔ Category\n# blog schema，前往左侧“数据建模” tab 查看\n# 由于是sqlite数据库，有些高级特性不支持～\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud\n",
   "createTime": "2024-01-19T15:15:22.07895334Z",
-  "updateTime": "",
+  "updateTime": "2024-01-21T05:28:26.863598246Z",
   "deleteTime": "",
   "path": "README",
   "engine": 0,
   "hooksConfiguration": null,
   "rateLimit": null,
   "configCustomized": false,
-  "cacheConfig": null,
-  "liveQueryConfig": null,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
   "authenticationConfig": null
 }

@@ -1,8 +1,3 @@
-# 计数非空字段值
-# _all 所有用户记录（总数）
-# email 邮箱不为空的总数（=_all）
-# country 国家不为空的总数（<_all）
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#count-non-null-field-values
 query MyQuery {
   blog_aggregateUser {
     _count {

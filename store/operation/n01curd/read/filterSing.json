@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 根据单字段过滤\n# 获取所有用户，其邮箱以\"fireboom.io\"结尾\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud#filter-by-a-single-field-value",
   "createTime": "2024-01-19T07:55:31.734172739Z",
-  "updateTime": "2024-01-19T07:55:54.404896152Z",
+  "updateTime": "2024-01-21T05:02:51.611619818Z",
   "deleteTime": "",
   "path": "n01curd/read/filterSing",
   "engine": 0,

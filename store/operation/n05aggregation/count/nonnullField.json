@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 计数非空字段值\n# _all 所有用户记录（总数）\n# email 邮箱不为空的总数（=_all）\n# country 国家不为空的总数（\u003c_all）\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#count-non-null-field-values",
   "createTime": "2024-01-20T09:58:01.248154859Z",
-  "updateTime": "2024-01-20T09:58:26.349738062Z",
+  "updateTime": "2024-01-21T05:20:58.841649293Z",
   "deleteTime": "",
   "path": "n05aggregation/count/nonnullField",
   "engine": 0,

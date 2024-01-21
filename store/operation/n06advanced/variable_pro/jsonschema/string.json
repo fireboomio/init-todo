@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数校验 jsonSchema \n# 字符串类型校验\n# 标题字符在 2-100 之间\n",
   "createTime": "2024-01-20T14:13:32.341939348Z",
-  "updateTime": "2024-01-20T15:00:48.663384566Z",
+  "updateTime": "2024-01-21T05:26:33.581616673Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/jsonschema/string",
   "engine": 0,

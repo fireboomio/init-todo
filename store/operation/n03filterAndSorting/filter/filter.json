@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联过滤查询\n# 查询所有用户及其未发表的文章，满足条件\n# 用户邮箱以\"fireboom.io\"结尾\n# 用户有一篇未发表的文章（关联）",
   "createTime": "2024-01-20T06:42:23.679507864Z",
-  "updateTime": "2024-01-20T06:45:43.439238051Z",
+  "updateTime": "2024-01-21T05:14:59.688357433Z",
   "deleteTime": "",
   "path": "n03filterAndSorting/filter/filter",
   "engine": 0,

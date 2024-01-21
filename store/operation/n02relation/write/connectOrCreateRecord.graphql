@@ -1,7 +1,3 @@
-# 连接或创建一个记录
-# 创建一篇文章，标题为 "how are you"
-# 如果有用户邮箱为"@fireboom.io"，则连接
-# 否则，创建该用户
 mutation MyQuery($email: String = "@fireboom.io") {
   blog_createOnePost(
     data: {

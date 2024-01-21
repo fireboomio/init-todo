@@ -1,6 +1,3 @@
-# 嵌套创建
-# 同时创建用户和一篇文章
-# create改为数组，可以创建多篇文章
 mutation MyQuery($email: String = "@fireboom.io22") {
   blog_createOneUser(
     data: {email: $email, Post: {create: {title: "my first post22", published: false}}}

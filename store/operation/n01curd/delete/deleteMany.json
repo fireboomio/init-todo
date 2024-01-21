@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 删除多条记录\n# 删除邮箱包含\"fireboom.io\"字段的所有用户",
   "createTime": "2024-01-18T12:06:32.179451236Z",
-  "updateTime": "2024-01-19T13:27:39.977841529Z",
+  "updateTime": "2024-01-21T04:50:17.093114295Z",
   "deleteTime": "",
   "path": "n01curd/delete/deleteMany",
   "engine": 0,

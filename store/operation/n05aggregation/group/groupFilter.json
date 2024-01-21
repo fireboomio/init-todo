@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 筛选并分组记录\n# 筛选邮箱包含 \"fireboom.io\" 的用户，\n# 并 根据国家分组用户，并统计一些数据\n",
   "createTime": "2024-01-20T09:06:23.797444785Z",
-  "updateTime": "2024-01-20T09:08:48.62114239Z",
+  "updateTime": "2024-01-21T05:21:58.653554537Z",
   "deleteTime": "",
   "path": "n05aggregation/group/groupFilter",
   "engine": 0,

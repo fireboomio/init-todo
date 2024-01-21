@@ -1,7 +1,3 @@
-# 内部声明 @internalOperation
-# 将 OPERATION 声明为内部函数
-# 1，只能在钩子中调用，详情见钩子文档：https://docs.fireboom.io/jin-jie-gou-zi-ji-zhi/nei-bu-tiao-yong
-# 2，无法通过 http://localhost:9991/operations/n06advanced/operation/internal 访问
 query MyQuery @internalOperation {
   blog_findFirstUser {
     country

@@ -1,6 +1,3 @@
-# 游标向后分页
-# 从id为10的记录开始，跳过游标（1个），往前取4个记录
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/pagination#example-paging-backwards-with-cursor-based-pagination
 query MyQuery {
   blog_findManyPost(skip: 1, take: -4, cursor: {id: 10}) {
     id

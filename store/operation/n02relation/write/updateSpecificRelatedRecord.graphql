@@ -1,5 +1,3 @@
-# 更新一个特定的关联记录
-# 把用户（id=1）的文章（id=9）的标题设置为"updated title"
 mutation MyQuery {
   blog_updateOneUser(
     data: {Post: {update: {where: {id: 9}, data: {title: {set: "updated title"}}}}}

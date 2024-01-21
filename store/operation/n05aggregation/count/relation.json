@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 计数关联表\n# 获取用户列表，及每个用户的文章总数",
   "createTime": "2024-01-20T09:52:21.524881605Z",
-  "updateTime": "2024-01-20T09:53:57.250179431Z",
+  "updateTime": "2024-01-21T05:21:10.570574558Z",
   "deleteTime": "",
   "path": "n05aggregation/count/relation",
   "engine": 0,

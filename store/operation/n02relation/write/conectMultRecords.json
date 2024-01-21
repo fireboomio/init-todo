@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 链接多个记录\n# 创建用户的同时，关联多篇文章",
   "createTime": "2024-01-19T14:05:29.935893185Z",
-  "updateTime": "2024-01-19T14:05:53.082755412Z",
+  "updateTime": "2024-01-21T05:09:22.686698009Z",
   "deleteTime": "",
   "path": "n02relation/write/conectMultRecords",
   "engine": 0,

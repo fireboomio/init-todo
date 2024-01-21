@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 根据关联表排序\n# 根据作者的邮箱地址正序排列文章",
   "createTime": "2024-01-20T07:44:22.090700346Z",
-  "updateTime": "2024-01-20T07:45:27.518381769Z",
+  "updateTime": "2024-01-21T05:16:58.554248042Z",
   "deleteTime": "",
   "path": "n03filterAndSorting/sort/relation",
   "engine": 0,

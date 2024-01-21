@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 删除一个记录\n# 根据email删除用户",
   "createTime": "2024-01-18T12:05:39.010579203Z",
-  "updateTime": "2024-01-19T13:26:59.871878639Z",
+  "updateTime": "2024-01-21T04:49:50.467790076Z",
   "deleteTime": "",
   "path": "n01curd/delete/delete",
   "engine": 0,

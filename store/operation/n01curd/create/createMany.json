@@ -1,9 +1,9 @@
 {
   "enabled": false,
   "title": "",
-  "remark": "",
+  "remark": "# sqlite 数据库不支持，其他数据库支持！！！",
   "createTime": "2024-01-18T12:24:25.635527124Z",
-  "updateTime": "2024-01-19T06:38:38.604624073Z",
+  "updateTime": "2024-01-21T04:45:59.578012762Z",
   "deleteTime": "",
   "path": "n01curd/create/createMany",
   "engine": 0,

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 聚合可为空的字段\n# 平均值\n# 计数不为空的个数\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#aggregate-values-are-nullable",
   "createTime": "2024-01-20T08:56:05.239039317Z",
-  "updateTime": "2024-01-20T08:57:10.025063749Z",
+  "updateTime": "2024-01-21T05:19:48.817013471Z",
   "deleteTime": "",
   "path": "n05aggregation/aggregate/nullable",
   "engine": 0,

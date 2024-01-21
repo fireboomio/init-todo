@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数注入- @fromHeader\n# 从客户端的请求头中取值注入到变量中\n# 用 header[\"token\"] 创建一个待做事项（虚构）\n",
   "createTime": "2024-01-20T13:55:18.410894561Z",
-  "updateTime": "2024-01-20T15:00:48.662251216Z",
+  "updateTime": "2024-01-21T05:27:43.666830976Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/fromheader",
   "engine": 0,

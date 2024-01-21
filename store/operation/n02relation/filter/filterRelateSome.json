@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 获取至少有一篇文章的用户列表\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-presence-of-related-records",
   "createTime": "2024-01-18T13:24:07.980966185Z",
-  "updateTime": "2024-01-20T10:34:19.2126889Z",
+  "updateTime": "2024-01-21T05:08:49.536338078Z",
   "deleteTime": "",
   "path": "n02relation/filter/filterRelateSome",
   "engine": 0,

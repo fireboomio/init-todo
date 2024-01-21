@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 游标向后分页\n# 从id为10的记录开始，跳过游标（1个），往前取4个记录\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/pagination#example-paging-backwards-with-cursor-based-pagination",
   "createTime": "2024-01-20T08:35:01.502410574Z",
-  "updateTime": "2024-01-20T08:35:45.391028881Z",
+  "updateTime": "2024-01-21T05:18:47.044674271Z",
   "deleteTime": "",
   "path": "n04pagination/cursorBackwards",
   "engine": 0,

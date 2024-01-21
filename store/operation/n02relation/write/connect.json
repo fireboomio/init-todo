@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新关联（n:n）\n# 建立文章（id=1的）与类别（id=2）的关联",
   "createTime": "2024-01-18T14:40:54.06131283Z",
-  "updateTime": "2024-01-20T10:28:38.146856193Z",
+  "updateTime": "2024-01-21T05:10:17.637306338Z",
   "deleteTime": "",
   "path": "n02relation/write/connect",
   "engine": 0,

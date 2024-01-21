@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 删除所有记录\n# 删除所有用户",
   "createTime": "2024-01-18T12:07:29.08502488Z",
-  "updateTime": "2024-01-19T13:28:23.713212656Z",
+  "updateTime": "2024-01-21T04:50:04.615796522Z",
   "deleteTime": "",
   "path": "n01curd/delete/deleteAll",
   "engine": 0,

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新或创建记录\n# 如果用户（email=\"@fireboom.io\"）存在，将邮箱更新为 \"default@fireboom.io\"\n# 否则，创建该用户\n# 如果update设置为空，则可以实现，findOrCreate 功能",
   "createTime": "2024-01-18T11:59:55.499513398Z",
-  "updateTime": "2024-01-19T13:18:29.00840142Z",
+  "updateTime": "2024-01-21T05:05:03.055512553Z",
   "deleteTime": "",
   "path": "n01curd/update/upsert",
   "engine": 0,

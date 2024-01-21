@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 跨数据源关联查询（也适用同数据源没有外建关联的场景）\n# blog 库和 todo 库，其中 todo.todo.authorId=blog.user.id\n# 查询 blog 库的 用户（id=1）\n# 同时 关联查询该用户在 todo 库的所有 todo 记录\n# 原理：\n# 1, 声明变量：用 @internal 定义 $authorId\n# 2，赋值变量：用 @export 将 id 赋值给 authorId（注意这里没有 $ 符号）\n# 3，使用变量：在todo_findManyTodo 字段 where条件中使用 $authorId\n",
   "createTime": "2024-01-20T12:29:06.590942434Z",
-  "updateTime": "2024-01-20T12:38:07.976839302Z",
+  "updateTime": "2024-01-21T05:23:09.312333241Z",
   "deleteTime": "",
   "path": "n06advanced/join/query",
   "engine": 0,

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数注入- @injectGeneratedUUID\n# 随机生成 uuid 注入到变量中\n# 用 uuid 创建一个待做事项（虚构）\n",
   "createTime": "2024-01-20T14:10:44.635602379Z",
-  "updateTime": "2024-01-20T15:00:48.662807381Z",
+  "updateTime": "2024-01-21T05:27:33.763755531Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/injectgenerateduuid",
   "engine": 0,

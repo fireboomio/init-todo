@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 事务 @transaction \n# 事务删除 User 和 Profile\n# 不用该指令修饰，无法保证原子性",
   "createTime": "2024-01-20T12:21:24.234122838Z",
-  "updateTime": "2024-01-20T12:27:07.635569938Z",
+  "updateTime": "2024-01-21T05:24:45.330027739Z",
   "deleteTime": "",
   "path": "n06advanced/transaction/transactionDel",
   "engine": 0,

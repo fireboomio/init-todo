@@ -1,6 +1,3 @@
-# 关联过滤(1:n)
-# 查询没有一篇文章的用户列表 （none）
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on-absence-of--to-many-records
 query MyQuery {
   blog_findManyUser(where: {Post: {none: {}}}) {
     email

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 断开关联(n:n)\n# 断开文章（id=1的）与类别（id=2）的关联",
   "createTime": "2024-01-18T12:38:29.119043114Z",
-  "updateTime": "2024-01-20T10:16:28.113768737Z",
+  "updateTime": "2024-01-21T05:11:58.895749392Z",
   "deleteTime": "",
   "path": "n02relation/write/disconnect",
   "engine": 0,

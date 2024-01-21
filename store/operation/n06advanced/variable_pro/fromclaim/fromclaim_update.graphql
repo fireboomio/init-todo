@@ -1,6 +1,3 @@
-# 数据权限 @fromClaim
-# 用户只能更新自己拥有的文章
-# 将id=1且作者邮箱为（EMAIL）的文章 标题设置为 "learn firebom fromcliam"
 mutation MyQuery( $id: Int=1, $title: String="learn firebom fromcliam",$email: String! @fromClaim(name: EMAIL)) {
   blog_updateOnePost(
     data: {title: {set: $title}}

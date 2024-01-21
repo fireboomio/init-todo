@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 链接单个记录(1:n)\n# 创建用户的同时，关联一篇文章\n# connect 后改为数组，可关联多篇文章 connect: [{ id: 1 }, { id: 9 }, { id: 10 }]",
   "createTime": "2024-01-18T12:34:36.117243575Z",
-  "updateTime": "2024-01-19T14:05:41.480822899Z",
+  "updateTime": "2024-01-21T05:09:42.590354907Z",
   "deleteTime": "",
   "path": "n02relation/write/conectSingRecords",
   "engine": 0,

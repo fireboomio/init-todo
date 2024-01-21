@@ -1,16 +1,24 @@
 {
   "enabled": false,
   "title": "",
-  "remark": "",
+  "remark": "# 为现存记录增加相关记录\n# debug\n# sqlite不支持",
   "createTime": "2024-01-19T14:51:25.63584599Z",
-  "updateTime": "",
+  "updateTime": "2024-01-21T05:09:09.571935266Z",
   "deleteTime": "",
   "path": "n02relation/write/addNewRelatedRecords",
   "engine": 0,
   "hooksConfiguration": null,
   "rateLimit": null,
   "configCustomized": false,
-  "cacheConfig": null,
-  "liveQueryConfig": null,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
   "authenticationConfig": null
 }

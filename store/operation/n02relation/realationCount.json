@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联数量\n# 根据主键或唯一键查询\n# 获取邮箱为\"@fireboom.io\" 的用户\n# 并同时获取其 文章总数量 totalPost",
   "createTime": "2024-01-19T13:43:55.719504926Z",
-  "updateTime": "2024-01-19T13:48:24.510212546Z",
+  "updateTime": "2024-01-21T05:13:56.745165183Z",
   "deleteTime": "",
   "path": "n02relation/realationCount",
   "engine": 0,

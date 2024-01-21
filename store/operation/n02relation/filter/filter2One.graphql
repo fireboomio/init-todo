@@ -1,8 +1,3 @@
-# 关联过滤（n:1）
-# 根据条件查找文章列表
-# 1. 作者的 email 不是 "fireboom.io" (isNot)
-# 2. 作者的 age 大于1 (is)
-# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on--to-one-relations
 query MyQuery {
   blog_findManyPost(
     where: {User: {is: {age: {gt: 1}}, isNot: {email: {equals: "fireboom.io"}}}}

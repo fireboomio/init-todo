@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新用户\n# 将用户（id=1）的邮箱设置为\"@fireboom.cloud\"",
   "createTime": "2024-01-18T11:55:08.796399626Z",
-  "updateTime": "2024-01-19T13:16:24.556183387Z",
+  "updateTime": "2024-01-21T05:04:27.269043705Z",
   "deleteTime": "",
   "path": "n01curd/update/update",
   "engine": 0,

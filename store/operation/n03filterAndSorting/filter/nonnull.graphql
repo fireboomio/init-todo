@@ -1,5 +1,3 @@
-# 过滤非空字段
-# 查询所有内容非空的文章
 query MyQuery {
   blog_findManyPost(where: {content: {not: null}}) {
     id

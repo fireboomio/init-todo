@@ -1,5 +1,3 @@
-# 删除一个记录
-# 根据email删除用户
 mutation MyQuery($email: String = "@fireboom.io") {
   blog_deleteOneUser(where: {email: $email}) {
     id

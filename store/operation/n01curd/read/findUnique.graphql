@@ -1,6 +1,3 @@
-# 简单查询
-# 根据主键或唯一键查询
-# 获取邮箱为"@fireboom.io" 的用户
 query MyQuery($email: String = "@fireboom.io") {
   blog_findUniqueUser(where: {email: $email}) {
     id

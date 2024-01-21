@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新数字字段\n# 将 所有文章（title包含'fireboom'）的浏览量+1",
   "createTime": "2024-01-18T12:03:24.564552775Z",
-  "updateTime": "2024-01-19T13:20:58.708922118Z",
+  "updateTime": "2024-01-21T05:04:13.796325687Z",
   "deleteTime": "",
   "path": "n01curd/update/increment",
   "engine": 0,

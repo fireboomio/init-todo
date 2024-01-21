@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联过滤\n# 查找所有用户\n# 1. 没有文章超过100阅读 (none)\n# 2. 所有文章等于或大于10赞 (every)\n# some 表示 至少有一个\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on--to-many-relations",
   "createTime": "2024-01-18T13:06:55.237673533Z",
-  "updateTime": "2024-01-20T10:34:34.437116535Z",
+  "updateTime": "2024-01-21T05:06:40.685645782Z",
   "deleteTime": "",
   "path": "n02relation/filter/filter2Many",
   "engine": 0,

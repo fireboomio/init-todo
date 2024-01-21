@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数注入- @injectCurrentDateTime\n# 将当前时间注入到变量中，一般用于 DateTime 字段\n# 创建或更新时，设置为服务端时间\n",
   "createTime": "2024-01-20T13:58:46.602033543Z",
-  "updateTime": "2024-01-20T15:00:48.662389884Z",
+  "updateTime": "2024-01-21T05:27:50.634750152Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/injectcurrentdatetime",
   "engine": 0,

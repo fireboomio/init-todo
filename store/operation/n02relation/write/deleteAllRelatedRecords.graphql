@@ -1,5 +1,3 @@
-# 删除所有相关记录
-# 把id=1用户，所有未发布的文章删除
 mutation MyQuery($id: Int = 1) {
   blog_updateOneUser(
     data: {Post: {deleteMany: {}}}

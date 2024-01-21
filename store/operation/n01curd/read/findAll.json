@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 查询全部\n# 注：数据量过大时推荐分页查询",
   "createTime": "2024-01-19T06:49:30.26617976Z",
-  "updateTime": "2024-01-19T06:57:25.879498274Z",
+  "updateTime": "2024-01-21T05:03:03.659737503Z",
   "deleteTime": "",
   "path": "n01curd/read/findAll",
   "engine": 0,

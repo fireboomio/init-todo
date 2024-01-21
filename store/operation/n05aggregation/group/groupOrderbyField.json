@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 排序聚合组-根据字段\n# 根据用户国家 排序组（倒序），并且分页获取\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#order-by-field\n",
   "createTime": "2024-01-20T09:47:00.261615484Z",
-  "updateTime": "2024-01-20T09:47:27.875834921Z",
+  "updateTime": "2024-01-21T05:22:34.368325775Z",
   "deleteTime": "",
   "path": "n05aggregation/group/groupOrderbyField",
   "engine": 0,

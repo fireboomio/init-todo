@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 参数注入- @injectCurrentDateTime\n# 使用 offset 字段，设置时间的偏移量\n# 示例，服务器时间 -1 小时\n",
   "createTime": "2024-01-20T14:03:57.072122544Z",
-  "updateTime": "2024-01-20T15:00:48.662525517Z",
+  "updateTime": "2024-01-21T05:27:08.035297139Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/injectcurrentdatetime_offset",
   "engine": 0,

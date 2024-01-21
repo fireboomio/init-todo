@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联过滤（n:1）\n# 根据条件查找文章列表\n# 1. 作者的 email 不是 \"fireboom.io\" (isNot)\n# 2. 作者的 age 大于1 (is)\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#filter-on--to-one-relations",
   "createTime": "2024-01-18T13:14:23.559408496Z",
-  "updateTime": "2024-01-19T14:56:31.766920304Z",
+  "updateTime": "2024-01-21T05:08:02.48493144Z",
   "deleteTime": "",
   "path": "n02relation/filter/filter2One",
   "engine": 0,

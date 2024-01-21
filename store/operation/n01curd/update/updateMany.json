@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新多条记录\n# 将所有用户（email包含'@fireboom.io'）的邮箱设置为\"@fireboom.cloud\"",
   "createTime": "2024-01-18T11:57:18.409789802Z",
-  "updateTime": "2024-01-19T13:17:27.068392104Z",
+  "updateTime": "2024-01-21T05:04:46.190841728Z",
   "deleteTime": "",
   "path": "n01curd/update/updateMany",
   "engine": 0,

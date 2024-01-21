@@ -1,5 +1,3 @@
-# 更新所有相关记录
-# 取消发布特定用户的所有文章
 mutation MyQuery {
   blog_updateOneUser(
     data: {Post: {updateMany: {where: {published: {equals: true}}, data: {published: {set: false}}}}}

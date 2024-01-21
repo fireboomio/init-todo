@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 组合过滤\n# 获取全部用户，邮箱以 \"test\" 开头，或 \n# Profile 的 address 等于 \"china\" 并且 有一篇文章 的title包含\"fireboom\"\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud#filter-by-multiple-field-values",
   "createTime": "2024-01-19T07:57:25.809535618Z",
-  "updateTime": "2024-01-19T07:57:43.566721716Z",
+  "updateTime": "2024-01-21T05:02:18.9178657Z",
   "deleteTime": "",
   "path": "n01curd/read/filterMultiple",
   "engine": 0,

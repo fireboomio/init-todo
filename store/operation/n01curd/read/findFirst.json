@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 获取符合特定条件的第一条记录\n# 用户有一篇文章的赞\u003e100\n# 按照用户id倒序取第一条（最新的用户）\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/crud#get-the-first-record-that-matches-a-specific-criteria",
   "createTime": "2024-01-19T06:58:56.691892427Z",
-  "updateTime": "2024-01-19T07:00:09.167909878Z",
+  "updateTime": "2024-01-21T05:03:22.168055674Z",
   "deleteTime": "",
   "path": "n01curd/read/findFirst",
   "engine": 0,

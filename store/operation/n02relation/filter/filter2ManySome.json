@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 关联过滤(1:n)\n# 获取所有用户，其邮箱以\"fireboom.io\"结尾，且该用户有一篇文章未发布 (some)",
   "createTime": "2024-01-18T11:37:45.388669835Z",
-  "updateTime": "2024-01-20T12:00:25.590863431Z",
+  "updateTime": "2024-01-21T05:07:35.534850933Z",
   "deleteTime": "",
   "path": "n02relation/filter/filter2ManySome",
   "engine": 0,

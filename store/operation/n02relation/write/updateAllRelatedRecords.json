@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新所有相关记录\n# 取消发布特定用户的所有文章",
   "createTime": "2024-01-19T14:35:49.592850832Z",
-  "updateTime": "2024-01-19T14:39:20.998970423Z",
+  "updateTime": "2024-01-21T05:12:49.780046839Z",
   "deleteTime": "",
   "path": "n02relation/write/updateAllRelatedRecords",
   "engine": 0,

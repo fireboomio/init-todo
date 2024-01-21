@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 去重\n# 根据 country 字段去除重复数据\n# 参考：https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing#select-distinct\n",
   "createTime": "2024-01-20T10:03:47.831841426Z",
-  "updateTime": "2024-01-20T10:06:26.065591496Z",
+  "updateTime": "2024-01-21T05:21:33.5379805Z",
   "deleteTime": "",
   "path": "n05aggregation/distinct/distinct",
   "engine": 0,

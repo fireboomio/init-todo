@@ -1,5 +1,3 @@
-# 更新数字字段
-# 将 所有文章（title包含'fireboom'）的浏览量+1
 mutation MyQuery($contains: String = "fireboom") {
   blog_updateManyPost(
     data: {view: {increment: 1}}

@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 嵌套创建\n# 同时创建用户和一篇文章\n# create改为数组，可以创建多篇文章",
   "createTime": "2024-01-18T12:21:22.036694739Z",
-  "updateTime": "2024-01-18T13:34:57.576524671Z",
+  "updateTime": "2024-01-21T04:45:40.344036271Z",
   "deleteTime": "",
   "path": "n01curd/create/createWithPost",
   "engine": 0,

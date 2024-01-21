@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "",
+  "remark": "# 更新或创建相关记录\n# 若文章（id=10）存在用户（作者），则更新其邮箱为 \"@fireboom.io\"\n# 否则，新建用户",
   "createTime": "2024-01-19T14:45:25.465369565Z",
-  "updateTime": "2024-01-19T14:49:41.001534381Z",
+  "updateTime": "2024-01-21T05:13:02.70004543Z",
   "deleteTime": "",
   "path": "n02relation/write/updateOrCreateRelatedRecord",
   "engine": 0,
