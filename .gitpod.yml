@@ -1,6 +1,6 @@
 tasks:
   - name: fireboom
-    init: curl -fsSL https://www.fireboom.io/update | bash
+    init: curl -fsSL https://www.fireboom.io/update-test | bash
     command: ./fireboom dev
 ports:
   - port: 9123
