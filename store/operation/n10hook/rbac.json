@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "### 接口权限控制 @rbac\n用户必须登录，且拥有 admin 角色才能访问该接口\n该指令只适用于静态场景，详情见：https://docs.fireboom.io/ji-chu-ke-shi-hua-kai-fa/yan-zheng-he-shou-quan/rbac\n动态场景（不用指令修饰），请在 beforeRequest 钩子为接口注入角色\n详情前往：https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/global/beforeOriginRequest.go#L32\n",
+  "remark": "### 接口权限控制 @rbac\n用户必须登录，且拥有 admin 角色才能访问该接口\n该指令只适用于静态场景，详情见：https://docs.fireboom.io/ji-chu-ke-shi-hua-kai-fa/yan-zheng-he-shou-quan/rbac\n动态场景（不用指令修饰），请在 beforeRequest 钩子为接口注入角色\n详情前往：https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/global/beforeOriginRequest.go#L32",
   "createTime": "2024-01-20T13:15:59.816116955Z",
-  "updateTime": "2024-01-21T07:39:53.722171535Z",
+  "updateTime": "2024-01-21T14:39:15.483989072Z",
   "deleteTime": "",
   "path": "n10hook/rbac",
   "engine": 0,
