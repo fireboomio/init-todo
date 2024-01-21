@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "API 配置- 速率限制 \n限制接口访问次数，例如 最多 3秒 请求1次\n1，在接口编辑页右侧切换到 “设置” 面板\n2，“使用独立配置”-\u003e开启“限流配置”",
+  "createTime": "2024-01-21T11:31:45.765925451Z",
+  "updateTime": "2024-01-21T11:41:38.514733199Z",
+  "deleteTime": "",
+  "path": "n06advanced/setting/rateLimit",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": {
+    "enabled": true,
+    "requests": 3,
+    "perSecond": 1
+  },
+  "configCustomized": true,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

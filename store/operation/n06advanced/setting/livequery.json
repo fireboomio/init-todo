@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "API 配置- 实时查询\n开启后，服务端定时轮训，并把最新数据推送到前端\n1，在接口编辑页右侧切换到 “设置” 面板\n2，“使用独立配置”-\u003e开启“实时查询”，轮询间隔默认 10 秒\n\n下述示例，用户（id=1）的文章数量一旦发生变化，实时推送到前端\n访问方法：http://localhost:9991/operations/n06advanced/setting/livequery?uid=1\u0026wg_live=true\n参考：https://docs.fireboom.io/ji-chu-ke-shi-hua-kai-fa/api-gou-jian/shi-shi-cha-xun",
+  "createTime": "2024-01-21T11:12:56.250553839Z",
+  "updateTime": "2024-01-21T11:29:49.795842426Z",
+  "deleteTime": "",
+  "path": "n06advanced/setting/livequery",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "configCustomized": true,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": true,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

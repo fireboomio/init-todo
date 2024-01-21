@@ -1,0 +1,7 @@
+query MyQuery($uid: Int = 1) {
+  blog_aggregatePost(where: {User: {is: {id: {equals: $uid}}}}) {
+    _count {
+      _all
+    }
+  }
+}

@@ -1,0 +1,5 @@
+mutation MyQuery {
+  blog_deleteOneUser(where: {id: 10}) {
+    id
+  }
+}

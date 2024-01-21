@@ -1,0 +1,8 @@
+mutation MyQuery($title: String = "rate limit") {
+  blog_createOnePost(
+    data: {title: $title, published: false, User: {connect: {id: 1}}}
+  ) {
+    id
+    title
+  }
+}
