@@ -3,7 +3,7 @@
   "title": "",
   "remark": "# 参数校验 jsonSchema \n# 数字类型校验\n# 年龄在 1-120 之间\n",
   "createTime": "2024-01-20T14:23:08.459615579Z",
-  "updateTime": "2024-01-21T05:26:13.242129214Z",
+  "updateTime": "2024-01-21T06:04:32.061513166Z",
   "deleteTime": "",
   "path": "n06advanced/variable_pro/jsonschema/number",
   "engine": 0,
