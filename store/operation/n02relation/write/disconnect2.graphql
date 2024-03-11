@@ -1,5 +1,9 @@
 mutation MyQuery {
-  blog_updateOnePost(data: {User: {connect: {id: null}}}, where: {id: 10}) {
+  blog_updateOnePost(data: {User: {connect: {id: null}}}, where: {id: 8}) {
     id
+    User {
+      id
+      email
+    }
   }
 }

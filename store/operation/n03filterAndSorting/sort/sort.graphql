@@ -1,5 +1,5 @@
 query MyQuery {
-  blog_findManyUser(orderBy: {email: desc, id: desc}) {
+  blog_findManyUser(orderBy: [{email: desc},{ id: desc}]) {
     email
     id
     Post(orderBy: {title: desc}) {

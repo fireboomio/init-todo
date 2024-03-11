@@ -1,9 +1,9 @@
 {
   "enabled": true,
   "title": "",
-  "remark": "# 删除特定相关记录\n# 把用户（id=1），对应文章（id=7）删除",
+  "remark": "# 删除特定相关记录\n# 把用户（id=1），对应文章（id=6，7）删除",
   "createTime": "2024-01-19T14:32:49.385999104Z",
-  "updateTime": "2024-01-21T05:11:40.268425431Z",
+  "updateTime": "2024-03-11T03:52:28.247455163Z",
   "deleteTime": "",
   "path": "n02relation/write/deleteSpecificRelatedRecords2",
   "engine": 0,

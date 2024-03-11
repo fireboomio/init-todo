@@ -1,7 +1,7 @@
 mutation MyQuery {
   blog_updateOneUser(
-    data: {Post: {updateMany: {where: {published: {equals: true}}, data: {published: {set: false}}}}}
-    where: {id: 10}
+    data: {Post: {updateMany: [{where: {published: {equals: true}}, data: {published: {set: false}}}]}}
+    where: {id: 3}
   ) {
     email
     id

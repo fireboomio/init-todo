@@ -2,7 +2,8 @@
 本仓库是 fireboom 的模板仓库，用于快速初始化 fireboom 项目。
 
 > 飞布是下一代 API 开发平台，灵活开放、多语言兼容、简单易学，对标 Firebase，但无供应商锁定。 它帮助你构建生产级 WEB API，但无需花时间重复 coding。
-> 产品愿景：极致开发体验，`飞速布署`应用！
+
+> 产品愿景：**极致开发体验，`飞速布署`应用！**
 
 - fireboom 主仓库：[前往->](https://github.com/fireboomio/fireboom)
 - fireboom 官网：[前往->](https://www.fireboom.io/)
@@ -81,7 +82,7 @@ curl -fsSL https://www.fireboom.io/update-test | bash
 为了降低启动成本，本模板引入了最少的外部依赖，因此用 `sqlite` 数据库作为演示。
 
 > [!NOTE]  
-> 但额外的代价是，sqlite 不支持一些高级特性，例如数组类型。
+> 但额外的代价是，sqlite 不支持一些高级特性，例如数组类型、批量操作（见报错部分，如 n01curd/create/createMany、n02relation/write/createWithPost2）等。
 
 **todo**数据库
 
@@ -218,10 +219,10 @@ fireboom 的数据库操作，基于 [prisma](https://docs.fireboom.io/he-xin-ga
 
 默认情况下，OPERATION 参数只能从请求 url path 或 body 中读取，有些场景需要在服务端设置。
 
-- @fromHeader：读取客户端的请求头注入
-- @injectCurrentDateTime：服务器生成时间注入
-- @injectEnvironmentVariable：读取环境变量注入
-- @injectGeneratedUUID：服务器生成 uuid 注入
+- **@fromHeader**：读取客户端的请求头注入
+- **@injectCurrentDateTime**：服务器生成时间注入
+- **@injectEnvironmentVariable**：读取环境变量注入
+- **@injectGeneratedUUID**：服务器生成 uuid 注入
 
 **入参校验**
 
@@ -229,10 +230,10 @@ fireboom 的数据库操作，基于 [prisma](https://docs.fireboom.io/he-xin-ga
 
 为保证安全性，OPERATION 参数需要校验，指令 `@jsonSchema` 用来实现该功能。
 
-- 正则校验
-- 通用校验：如内置邮箱校验
-- 数字校验：数字范围校验
-- 文本校验：文本数量校验
+- **正则校验**：正则表达式
+- **通用校验**：如内置邮箱校验
+- **数字校验**：数字范围校验
+- **文本校验**：文本数量校验
 
 **响应控制**
 
@@ -240,8 +241,8 @@ fireboom 的数据库操作，基于 [prisma](https://docs.fireboom.io/he-xin-ga
 
 默认情况下，OPERATION 编译的 REST API，其响应值为对应数据源中的字段命名。某些场景下，要根据前端需求返回对应的别名或结构。
 
-- @formatDateTime：格式化 `DateTime` 类型的字段
-- @transform：“拍平”深层嵌套，支持数组和对象
+- **@formatDateTime**：格式化 `DateTime` 类型的字段
+- **@transform**：“拍平”深层嵌套，支持数组和对象
 
 ### 设置相关：
 
@@ -249,8 +250,8 @@ fireboom 的数据库操作，基于 [prisma](https://docs.fireboom.io/he-xin-ga
 
 除了 OPERATION 描述 API 外，还可以额外设置特性。
 
-- 实时查询：服务端定时轮训数据源，数据变化后，推送给前端，实现数据的准实时更新
-- 速率限制：限制任意接口的 请求频次，实现流控
+- **实时查询**：服务端定时轮询数据源，数据变化后，推送给前端，实现数据的准实时更新
+- **速率限制**：限制任意接口的 请求频次，实现流控
 
 ## OIDC 相关
 
@@ -270,9 +271,9 @@ fireboom 还支持身份认证，基于 [OIDC 协议](https://docs.fireboom.io/j
 
 示例位于目录：`store/operation/n07oidc/fromclaim`
 
-- 查询权限控制：只查询登录用户拥有的数据
-- 更新权限控制：只更新登录用户拥有的数据
-- 创建权限控制：创建数据时所有人设置为登录用户
+- **查询权限控制**：只查询登录用户拥有的数据
+- **更新权限控制**：只更新登录用户拥有的数据
+- **创建权限控制**：新建数据的所有人设置为登录用户
 
 > [!NOTE]  
 > OIDC 规范中只声明里用户相关的数据，如 UID、EMAIL。若想注入业务数据，可编写钩子，详情见[文档](https://docs.fireboom.io/jin-jie-gou-zi-ji-zhi/shen-fen-yan-zheng-gou-zi#mutatingpostauth)或[代码片段](https://github.com/fireboomio/amis-admin/blob/c56897a2b9def58a00416b9b5df135f0259726e3/backend/custom-go/authentication/mutatingPostAuthentication.go#L21)。

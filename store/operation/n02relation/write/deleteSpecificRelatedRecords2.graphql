@@ -1,8 +1,11 @@
 mutation MyQuery($id: Int = 1) {
   blog_updateOneUser(
-    data: {Post: {deleteMany: [{id:7}]}
+    data: {Post: {deleteMany: {id: {in: [7, 6]}}}}
     where: {id: $id}
   ) {
     id
+    _count {
+      Post
+    }
   }
 }
