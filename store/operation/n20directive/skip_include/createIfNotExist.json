@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "# 先根据userId查询用户是否存在并导出email为hasEmail (所有基础类型均可导出为boolean值，不为零值时true)\n# 根据分类名称查询分类是否存在，如果分类不存在则通过 @skip(ifRule: \"!isEmpty(arguments.categoryId)\") 判断后执行创建分类操作并导出创建后新的categoryId\n# 当user有email数据时 通过@include(if: $hasEmail) 判断，创建文章",
+  "createTime": "2024-04-29T16:00:14.2263+08:00",
+  "updateTime": "2024-04-29T16:20:19.721408+08:00",
+  "deleteTime": "",
+  "path": "n20directive/skip_include/createIfNotExist",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "semaphore": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

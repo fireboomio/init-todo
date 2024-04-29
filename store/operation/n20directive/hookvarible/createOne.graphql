@@ -1,0 +1,7 @@
+mutation MyQuery($content: String!, $title: String!, $published: Boolean = true, $likes: [blog_UserCreateInput] @hookVariable) {
+  data: blog_createOnePost(
+    data: {title: $title, published: $published, content: $content}
+  ) {
+    id
+  }
+}

@@ -1,0 +1,4 @@
+mutation MyQuery {
+  blog_queryRaw(query: "select * from user")
+  blog_executeRaw(query: "delete from user where email='123123'")
+}

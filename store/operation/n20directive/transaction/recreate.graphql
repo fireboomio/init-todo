@@ -1,0 +1,10 @@
+mutation MyQuery($content: String!, $title: String!, $published: Boolean = true) @transaction {
+  deleted: blog_deleteManyPost(where: {title: {equals: $title}}) @transform(get: "count") {
+    count
+  }
+  data: blog_createOnePost(
+    data: {title: $title, published: $published, content: $content}
+  ) {
+    id
+  }
+}

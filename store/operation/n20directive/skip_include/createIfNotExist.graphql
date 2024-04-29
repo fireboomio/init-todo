@@ -1,0 +1,18 @@
+query MyQuery($userId: Int!, $categoryName: String!, $content: String!, $title: String!, $categoryId: Int @internal, $hasEmail: Boolean @internal) {
+  data: blog_findUniqueUser(where: {id: $userId}) {
+    email @export(as: "hasEmail")
+    existed: _join {
+      categoryId: blog_findFirstCategory(where: {name: {equals: $categoryName}}) @transform(get: "id") {
+        id @export(as: "categoryId")
+      }
+    }
+    created: _join_mutation {
+      categoryId: blog_createOneCategory(data: {name: $categoryName}) @skip(ifRule: "!isEmpty(arguments.categoryId)") @transform(get: "id") {
+        id @export(as: "categoryId")
+      }
+      postId: blog_createOnePost(data: {content: $content, published: true, title: $title, Category: {connect: {id: $categoryId}}}) @include(if: $hasEmail) @transform(get: "id") {
+        id
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "# 测试queryRaw和executeRaw的用例\n# 使用自动补全前的graphql内容",
+  "createTime": "2024-04-29T15:54:38.843464+08:00",
+  "updateTime": "2024-04-29T15:55:50.677111+08:00",
+  "deleteTime": "",
+  "path": "n20directive/queryraw/before",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "semaphore": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}

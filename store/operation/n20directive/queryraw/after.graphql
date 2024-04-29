@@ -1,0 +1,9 @@
+mutation MyQuery {
+  blog_queryRaw(query: "select * from user", parameters: []){
+    age @customizedField(type: Int)
+    country @customizedField(type: String)
+    email @customizedField(type: String)
+    id @customizedField(type: Int)
+  }
+  blog_executeRaw(query: "delete from user where email='123123'")@customizedField(type: Int)
+}

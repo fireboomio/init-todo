@@ -1,0 +1,8 @@
+mutation MyQuery($id: Int!, $title: String!, $published: Boolean = true, $content: String!) {
+  data: blog_createOnePost(
+    data: {title: $title, published: $published, User: {connect: {id: $id}}, content: $content}
+  ) {
+    id
+    contentValid @customizedField(type: Boolean, desc: "内容是否合法")
+  }
+}

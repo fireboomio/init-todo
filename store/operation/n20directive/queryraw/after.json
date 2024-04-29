@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "title": "",
+  "remark": "# 测试queryRaw和executeRaw的用例，使用自动补全后的graphql内容\n# queryRaw会根据返回字段的类型自动添加字段和指令@customizedField并标识类型，queryRaw中如果已定义了字段，自动补全会保留在返回值中存在的字段定义，并追加剩余的，不存在的将会被剔除\n# executeRaw会直接指定为int类型",
+  "createTime": "2024-04-29T15:49:31.453012+08:00",
+  "updateTime": "2024-04-29T15:59:27.247737+08:00",
+  "deleteTime": "",
+  "path": "n20directive/queryraw/after",
+  "engine": 0,
+  "hooksConfiguration": null,
+  "rateLimit": null,
+  "semaphore": null,
+  "configCustomized": false,
+  "cacheConfig": {
+    "enabled": false,
+    "maxAge": 120,
+    "public": false,
+    "staleWhileRevalidate": 30
+  },
+  "liveQueryConfig": {
+    "enabled": false,
+    "pollingIntervalSeconds": 10
+  },
+  "authenticationConfig": null
+}
